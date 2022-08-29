@@ -713,7 +713,7 @@ a:focus .icon__customer {
 }
 
 .frm-service__lbl > input:focus {
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid blue;
 }
 
 .frm-service__lbl > textarea {
