@@ -2,7 +2,7 @@
   const refs = {
     openModalBtn: document.querySelector('[data-modal-open]'),
     closeModalBtn: document.querySelector('[data-modal-close]'),
-    closeOutsideClick: document.querySelector('not:(.frm-service)'),
+    closeOutsideClick: document.querySelector('[data-modal-outside]+:not([data-modal-inside])'),
     modal: document.querySelector('[data-modal]'),
   };
 
